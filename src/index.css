@@ -1,1 +1,32 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: "TBJEndgraph Trapline";
+  src: url("assets/fonts/TBJEndgraph-Trapline/Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TBJEndgraph Trapline";
+  src: url("assets/fonts/TBJEndgraph-Trapline/Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TBJEndgraph Trapline";
+  src: url("assets/fonts/TBJEndgraph-Trapline/Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-sans:
+    "DM Sans", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-display: "TBJEndgraph Trapline", sans-serif;
+}
