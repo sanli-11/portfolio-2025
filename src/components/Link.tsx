@@ -1,7 +1,14 @@
 import type { linkType } from "../data/navLinks";
 
-function Link({ id, label, href, hasOverline = false, className }: linkType & { hasOverline?: boolean, className?: string }) {
-  const overline = "before:absolute before:left-1/2 before:top-0 before:h-1 before:w-0 before:bg-red-500 before:transition-all before:content-[''] hover:before:left-0 hover:before:w-full";
+function Link({
+  id,
+  label,
+  href,
+  hasOverline = false,
+  className,
+}: linkType & { hasOverline?: boolean; className?: string }) {
+  const overline =
+    "before:absolute before:left-1/2 before:top-0 before:h-1 before:w-0 before:bg-red-500 before:transition-all before:content-[''] hover:before:left-0 hover:before:w-full";
 
   return (
     <a

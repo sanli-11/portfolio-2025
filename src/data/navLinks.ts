@@ -10,7 +10,10 @@ const navLinks: linkType[] = [
   { id: 2, label: "Contact", href: "#contact" },
 ];
 
-const linkToCV: linkType = { label: "Download CV", href: "https://drive.google.com/" }
+const linkToCV: linkType = {
+  label: "Download CV",
+  href: "https://drive.google.com/",
+};
 
 export type { linkType };
 export { navLinks, linkToCV };
